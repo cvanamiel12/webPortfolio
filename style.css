@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    background-color: #38433b;
+   
+}
+
+.navbar {
+    padding: 2% 5%;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1.5px;
+}
+.jumbotron {
+    background-color: #eee7e1;
+    height: 600px;
+    /* padding: 5%;
+    margin-top: 20px; */ 
+}
+
+body {
+    background-color: #eee7e1;
+}
+p {
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+}
+h2 {
+    font-family: 'Merriweather', serif;
+}
+.title-sub {
+    font-family: Montserrat, sans-serif;
+    font-size: 2.5rem;
+}
+/* body {
+    background-color: #1a1919;
+    
+} */
+.title-message{
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 5.625rem;
+    padding-bottom: 3%;
+}
+
+.heading-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 5%;
+}
+/* #about {
+    text-align: center;
+} */
+.profile-picture {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 80px;
+}
+.about-me-picture{
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+   
+}
+.picture-div{
+    text-align: center;
+}
+.about-me-details{
+   padding-left: 20%;
+   padding-right: 20%;
+}
+.about-me-list{
+    padding: 5%;
+    text-align: left;
+    display: inline-flex;
+}
+.project-title {
+    padding:3%;
+}
+.contact-title{
+    text-align: center;
+    padding: 2%;
+}
+.contact-form{
+    background-color: #38433b;
+}
+.contact-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.bottom-container {
+    background-color: #38433b;
+    padding: 50px 0 20px;
+}
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.bottom-container a {
+    padding-right: 10px;
+}
+.footer-link {
+    color: gray;
+  }
