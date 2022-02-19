@@ -5,7 +5,7 @@
 }
 
 #title {
-    background-color: #38433b;
+    background: #333;
    
 }
 #projects {
@@ -32,6 +32,7 @@ p {
 }
 h2 {
     font-family: 'Merriweather', serif;
+    line-height: 1.7;
 }
 .title-sub {
     font-family: Montserrat, sans-serif;
@@ -42,8 +43,8 @@ h2 {
     
 } */
 .title-message{
-    font-family: 'Sacramento', cursive;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900;
     font-size: 5.625rem;
     padding-bottom: 3%;
 }
@@ -90,7 +91,7 @@ h2 {
     padding: 2%;
 }
 .contact-form{
-    background-color: #38433b;
+    background: linear-gradient(#83a4d4, #b6fbff);
 }
 .contact-title {
     font-family: 'Montserrat', sans-serif;
@@ -101,7 +102,7 @@ h2 {
 }
 
 .bottom-container {
-    background-color: #38433b;
+    background: #333;
     padding: 50px 0 20px;
 }
 .copyright {
