@@ -60,7 +60,10 @@
           <p>
               I'm a fullstack web <span>developer</span>  and <span>learning</span> is my passion. I enjoy building web applications. Check out some of my works below! 
           </p>
-          <button type="button" href="#portfolio"> Sample projects </button>
+          <!-- <button type="button" href="#portfolio"> Sample projects </button> -->
+          <form action="#portfolio">
+            <input class="button" type="submit" value="Sample works" />
+        </form>
       </div>
   </section>
       
@@ -72,7 +75,7 @@
   
       <h2 class="section-title text-center"> Portfolio </h2>
   
-      <div class="portfolio-container text-center">
+      <div class="portfolio-container e-commerce text-center">
           <div class="portfolio-content row">
                   <div class="col-lg-6 col-sm-12">
                       <img src="images/ecommerce.png" class="portfolio-img img-fluid">
@@ -81,11 +84,26 @@
   
                   <div class="col-lg-6 col-sm-12 portfolio-data">
                       <h3> <a href="https://capstone-3-vercel-beta.vercel.app/">E-commerce website</a> </h3>
-                      <p> A sample e-commerce website that uses React as frontend and Node JS as backend with REST API.</p>
+                      <p> A sample e-commerce website that uses React as frontend and Node JS as backend with REST APIs.</p>
                   </div>
           </div>
           
       </div>
+
+      <div class="portfolio-container text-center">
+        <div class="portfolio-content row">
+                <div class="col-lg-6 col-sm-12">
+                    <img src="images/recipe.png" class="portfolio-img img-fluid">
+                </div>
+                
+
+                <div class="col-lg-6 col-sm-12 portfolio-data">
+                    <h3> <a href="https://gitlab.com/a8639/recipe/recipe">Online Recipe Searcher</a> </h3>
+                    <p> A website that uses React, and uses styled components for styling. The API is from the website spoonacular.</p>
+                </div>
+        </div>
+        
+    </div>
   
   </section>
 
